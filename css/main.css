@@ -1,0 +1,74 @@
+body{
+	background-color: #00819e!important;
+}
+/*Website background*/
+
+h1 {
+    font-family: Cambria;
+    font-size: 70px;
+}
+
+h2{
+  font-family: Cambria;
+  font-size: 45px;
+  color: whitesmoke;
+  font-weight: bold;
+}
+
+.add{
+  font-family: Cambria;
+}
+/*Added to portion of jumbotron*/
+
+.jumbotron {
+    background-image: url("https://www.cghnyc.com/img/og.png");
+    width:1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 4px;
+    margin: 5px;
+}
+/*Text and image in jumbotron*/
+
+#ivanLife:hovers{
+   border:mediumblue bold; 
+}
+/*Before accordion is opened*/
+
+.highlight{
+  color: green;
+	background-color: #c4e096;
+}
+/*After accordion is opened*/
+
+.card-link {
+  background-color: #ed4224;
+  color: white; 
+}
+/*Highlighted text on accordion*/
+
+/*Classes needed for separate JS functions to work*/
+.accordionPanelTab {
+	background-image: url(../img/bg-accordion.jpg);
+	margin: 0;
+	cursor: pointer;
+	font-size: 18px;
+	text-align: center;
+}
+    
+.accordion {
+	overflow: hidden;
+	outline: none;
+}
+    
+.accordionPanelTab:hover {
+	color: gold;
+}
+    
+.accordionPanelContent {
+	overflow: hidden;
+	margin: 0px;
+	padding: 0px;
+	height: 315px;
+	background: url(../img/bg-accordion.jpg);
+}

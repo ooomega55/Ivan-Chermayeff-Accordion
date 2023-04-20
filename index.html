@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/main.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <title>Ivan Chermayeff</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="jumbotron jumbotron-fluid img-fluid">
+          <h1 class="display-3 p-2">Ivan Chermayeff</h1>
+          <p class="lead display-5 add m-1">Graphic Designer</p>
+          <hr class="my-2">
+          <p></p>
+        </div>
+      </div>
+    </div>
+
+  <div class="row">
+    <h2 class="p-1">Life and Photos of Ivan Chermayeff:</h2>
+  </div>
+    <!--The onclick command will show throughout the same div for each section to make it so the card will flip open when clicked and others will not-->
+<div class="row">
+  <div class="col">
+    <div class="row">
+      <div class="col-md-11 bg-warning m-3" id="ivanLife">
+        <p>
+          <a class="btn" href="#"></a>
+        </p>
+        <div id="card-786571">
+          <div class="card bg-info">
+            <div class="card-header">
+              <p><a class="card-link" data-toggle="collapse"
+                  data-parent="#card-786571"><div class="accordionPanelTab" id="ivanLifePanel" onclick="showIvanLifeContent()">Life #1</div></a></p>
+            </div>
+            <div id="card-element-642763" class="collapse show">
+              <div class="card-body text-white" id="ivanLifeContent"> <!--Most JS will be involved in id's-->
+<!--Each also have a separate and specific name to show where on the website it is-->
+                <ul>
+                  <li>Created many of the logos that we know of today.</li>
+                  <li>Died at age 85, born June 6, 1932 and died on December 4, 2017.</li>
+                  <li>Known for his sleek modern designs with bold colors.</li>
+                  <li>He made his logos, "clean, crisp and instantly comprehensible".</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+          <div class="card bg-info">
+            <div class="card-header">
+              <p><a class="card-link" data-toggle="collapse" data-parent="#card-786571"><div class="accordionPanelTab" id="ivanLifeTwoPanel" onclick="showIvanLifeTwoContent()">Life #2</div></a></p>
+            </div>
+            <div id="card-element-61955" class="collapse show">
+              <div class="card-body text-white" id="ivanLifeTwoContent">
+                <ul>
+                  <li>Grew up in a family of architects and artists.</li>
+                  <li>Studied at Harvard University, the Institute of Design, Illinois Institute of Technology, and the
+                    Yale University School of Design.</li>
+                  <li>Aside from logos, he also designed posters, created museum and gallery displays and illustrated
+                    children's books.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        
+          <div class="card bg-info">
+            <div class="card-header">
+              <p><a class="collapsed card-link" data-toggle="collapse" data-parent="#card-786571"><div class="accordionPanelTab" id="quotePanel" onclick="showQuoteContent()">Quotes From Ivan</div></a></p>
+            </div>
+            <div id="card-element-61955" class="collapse show">
+              <div class="card-body text-white" id="quoteContent">
+                <ul>
+                  <li>"clean, crisp and instantly comprehensible"</li>
+                  <li>"Design is directed toward human beings. To design is to solve human problems by identifying them
+                    and executing the best solution."</li>
+                  <li>"Styles come and go, design goes on forever: solving communication problems with new tools applied
+                    to the same old common sense."</li>
+                  <li>"Good design, at least part of the time, includes the criterion of being direct in relation to the
+                    problem at hand - not obscure, trendy, or stylish. A new language, visual or verbal, must be couched
+                    in a language that is already understood."</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+<!--Start of box on the right which includes each photo-->
+      <div class="col-md-6 bg-warning m-3">
+        <p>
+          <a class="btn" href="#"></a>
+        </p>
+        <div id="card-845567">
+          <div class="card bg-info">
+            <div class="card-header">
+              <p><a class="card-link" data-toggle="collapse" data-parent="#card-845567"><div class="accordionPanelTab" id="photoPanel" onclick="showPhotoContent()">First Photo</div></a></p>
+            </div>
+            <div id="card-element-786381" class="collapse show">
+              <div class="card-body" id="photoContent">
+                <img src="IvanC.jpg" class="mx-auto d-block img-fluid" width="409px">
+              </div>
+            </div>
+          </div>
+          
+          <div class="card bg-info">
+            <div class="card-header">
+             <p><a class="card-link" data-toggle="collapse" data-parent="#card-845567"><div class="accordionPanelTab" id="secondPhotoPanel" onclick="showSecondPhotoContent()">Second Photo</div></a></p>
+            </div>
+            <div id="card-element-192565" class="collapse show">
+              <div class="card-body" id="secondPhotoContent">
+                <img src="IvanLogoDesigner.jpg" class="mx-auto d-block img-fluid" width="409px">
+              </div>
+            </div>
+          </div>
+          
+          <div class="card bg-info">
+            <div class="card-header">
+              <p><a class="card-link" data-toggle="collapse" data-parent="#card-845567"><div class="accordionPanelTab" id="thirdPhotoPanel" onclick="showThirdPhotoContent()">Third Photo</a></p>
+            </div>
+            <div id="card-element-786381" class="collapse show">
+              <div class="card-body" id="thirdPhotoContent">
+                <img src="ivandeath.jpg" class="mx-auto d-block img-fluid" width="409px">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
+<div class="row">
+<h2 class="p-1">Ivan Chermayeff's Projects:</h2>
+</div>
+<!--Each project/logo Ivan has worked on-->
+      <div class="row">
+        
+        <div class="col-md-12 bg-success m-1">
+          <p>
+            <a class="btn" href="#"></a>
+          </p>
+          <div id="card-209972">
+            <div class="card bg-info">
+              <div class="card-header">
+                <p><a class="card-link" data-toggle="collapse" data-parent="#card-209972"><div class="card accordionPanelTab" id="projectOnePanel" onclick="showProjectOneContent()">NBC</div></a></p>
+              </div>
+              <div id="card-element-513492" class="collapse show">
+                <div class="card-body" id="projectOneContent">
+                  <img src="nbclogo.png" class="mx-auto d-block img-fluid" width="200px">
+                </div>
+              </div>
+            </div>
+            
+            <div class="card bg-info">
+              <div class="card-header">
+                <p><a class="collapsed card-link" data-toggle="collapse" data-parent="#card-209972"><div class="card accordionPanelTab" id="smithPanel" onclick="showSmithContent()">Smithsonian</div></a></p>
+              </div>
+              <div id="card-element-555411" class="collapse show">
+                <div class="card-body" id="smithContent">
+                  <img src="smithsonianIC.png" class="mx-auto d-block img-fluid" width="200px">
+                </div>
+              </div>
+            </div>
+            
+            <div class="card bg-info">
+              <div class="card-header">
+                <p><a class="collapsed card-link" data-toggle="collapse" data-parent="#card-209972"><div class="card accordionPanelTab" id="chasePanel" onclick="showChaseContent()">Chase</div></a></p>
+              </div>
+              <div id="card-element-555411" class="collapse show">
+                <div class="card-body" id="chaseContent">
+                  <img src="chaselogo.jpg" class="mx-auto d-block img-fluid" width="200px">
+                </div>
+              </div>
+            </div>
+            
+            <div class="card bg-info">
+              <div class="card-header">
+                <p><a class="collapsed card-link" data-toggle="collapse" data-parent="#card-209972"><div class="card accordionPanelTab" id="mobilPanel" onclick="showMobilContent()">Mobil</div></a></p>
+              </div>
+              <div id="card-element-555411" class="collapse show">
+                <div class="card-body" id="mobilContent">
+                  <img src="mobil.jpg"  class="mx-auto d-block img-fluid" width="200px">
+                </div>
+              </div>
+            </div>
+            
+            <div class="card bg-info">
+              <div class="card-header">
+                <p><a class="collapsed card-link" data-toggle="collapse" data-parent="#card-209972"><div class="card accordionPanelTab" id="natGeoPanel" onclick="showNatGeoContent()">National Geographic</div></a></p>
+              </div>
+              <div id="card-element-555411" class="collapse show">
+                <div class="card-body" id="natGeoContent">
+                  <img src="nationalgeo.jpg" class="mx-auto d-block img-fluid" width="200px">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js">
+    
+  </script>
+</body>
+
+</html>
